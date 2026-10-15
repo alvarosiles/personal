@@ -1,6 +1,18 @@
 {
   "iconos": [
     {
+      "nombre": "youtube",
+      "texto": "",
+      "descripcion": "Tutoriales y videos sobre programación",
+      "descripcionEn": "Programming tutorials and videos",
+      "href": "https://www.youtube.com/@AlvaroSilesDev",
+      "clase": "small",
+      "icono": "icons/youtube-blanco.svg",
+      "alt": "YouTube",
+      "target": "_blank",
+      "rel": "noopener"
+    },
+    {
       "nombre": "facebook",
       "texto": "",
       "descripcion": "Sígueme en Facebook",
@@ -31,7 +43,7 @@
       "descripcionEn": "Follow me on X (Twitter)",
       "href": "https://x.com/alvarosiles_dev",
       "clase": "small",
-      "icono": "icons/twitter.svg",
+      "icono": "icons/x.svg",
       "alt": "X",
       "target": "_blank",
       "rel": "noopener"
@@ -77,6 +89,33 @@
       "rel": null
     },
     {
+      "nombre": "portafolio",
+      "texto": "Portafolio web",
+      "textoEn": "Portfolio",
+      "descripcion": "Mis proyectos, tecnologías y trabajos realizados",
+      "descripcionEn": "My projects, technologies and work",
+      "href": "https://alvarosiles.cloud/",
+      "clase": "button button-default",
+      "icono": "icons/generic-website.svg",
+      "alt": "Portafolio web",
+      "target": "_blank",
+      "rel": "noopener"
+    },
+    {
+      "nombre": "cv",
+      "texto": "Currículum (CV)",
+      "textoEn": "Resume (CV)",
+      "descripcion": "Abre mi currículum vitae",
+      "descripcionEn": "Open my resume",
+      "href": "cv/cv.html",
+      "conIdioma": true,
+      "clase": "button button-default",
+      "icono": "icons/cv.svg",
+      "alt": "Currículum (CV)",
+      "target": "_blank",
+      "rel": "noopener"
+    },
+    {
       "nombre": "linkedin",
       "texto": "LinkedIn",
       "descripcion": "Mi perfil profesional y experiencia laboral",
@@ -87,34 +126,6 @@
       "alt": "LinkedIn",
       "target": "_blank",
       "rel": "noopener"
-    },
-    {
-      "nombre": "cv",
-      "texto": "Mi CV",
-      "textoEn": "My resume",
-      "descripcion": "Abre mi currículum vitae",
-      "descripcionEn": "Open my resume",
-      "href": "cv/cv.html",
-      "conIdioma": true,
-      "clase": "button button-default",
-      "icono": "icons/cv.svg",
-      "alt": "CV",
-      "target": "_blank",
-      "rel": "noopener"
-    },
-    {
-      "nombre": "portafolio",
-      "texto": "Mis proyectos",
-      "textoEn": "My projects",
-      "descripcion": "Extensiones y herramientas que construí y publiqué",
-      "descripcionEn": "Extensions and tools I've built and published",
-      "href": "proyectos.html",
-      "conIdioma": true,
-      "clase": "button button-default",
-      "icono": "icons/generic-website.svg",
-      "alt": "Mis proyectos",
-      "target": null,
-      "rel": null
     },
     {
       "nombre": "github",
@@ -129,30 +140,6 @@
       "rel": "noopener"
     },
     {
-      "nombre": "gitlab",
-      "texto": "GitLab",
-      "descripcion": "Más repositorios en GitLab",
-      "descripcionEn": "More repositories on GitLab",
-      "href": "https://gitlab.com/alvarosiles",
-      "clase": "button button-gitlab",
-      "icono": "icons/gitlab.svg",
-      "alt": "GitLab",
-      "target": "_blank",
-      "rel": "noopener"
-    },
-    {
-      "nombre": "codepen",
-      "texto": "CodePen",
-      "descripcion": "Mis demos y experimentos de código (todavía sin enlace)",
-      "descripcionEn": "My code demos and experiments (no link yet)",
-      "href": "404.html",
-      "clase": "button button-codepen",
-      "icono": "icons/codepen.svg",
-      "alt": "CodePen",
-      "target": null,
-      "rel": null
-    },
-    {
       "nombre": "figma",
       "texto": "Figma",
       "descripcion": "Mis diseños y archivos en Figma",
@@ -163,21 +150,21 @@
       "alt": "Figma",
       "target": "_blank",
       "rel": "noopener"
+    },
+    {
+      "nombre": "gitlab",
+      "texto": "GitLab",
+      "descripcion": "Más repositorios en GitLab",
+      "descripcionEn": "More repositories on GitLab",
+      "href": "https://gitlab.com/alvarosiles",
+      "clase": "button button-gitlab",
+      "icono": "icons/gitlab.svg",
+      "alt": "GitLab",
+      "target": "_blank",
+      "rel": "noopener"
     }
   ],
   "contacto": [
-    {
-      "nombre": "mail",
-      "texto": "Email",
-      "descripcion": "Envíame un correo electrónico",
-      "descripcionEn": "Send me an email",
-      "href": "mailto:alvarosiles.developer@gmail.com",
-      "clase": "button button-mail",
-      "icono": "icons/mail.svg",
-      "alt": "Email",
-      "target": null,
-      "rel": "noopener"
-    },
     {
       "nombre": "gmail",
       "texto": "Gmail",
@@ -214,6 +201,51 @@
       "alt": "Teléfono",
       "target": null,
       "rel": null
+    },
+    {
+      "nombre": "agendar-reunion",
+      "texto": "Agendar reunión",
+      "textoEn": "Schedule a meeting",
+      "descripcion": "Reunión por Zoom, Teams o Google Meet",
+      "descripcionEn": "Meeting on Zoom, Teams or Google Meet",
+      "mensaje": "Mi correo es alvarosiles.developer@gmail.com.\nEnvíame la invitación por WhatsApp con fecha y hora",
+      "mensajeEn": "My email is alvarosiles.developer@gmail.com.\nSend me the invitation on WhatsApp with date and time",
+      "efecto": "cohete",
+      "iconos": [
+        {
+          "icono": "icons/zoom.svg",
+          "texto": "Zoom",
+          "clase": "button-zoom"
+        },
+        {
+          "icono": "icons/microsoft-teams.svg",
+          "texto": "Teams",
+          "clase": "button-teams"
+        },
+        {
+          "icono": "icons/google-meet.svg",
+          "texto": "Google Meet",
+          "clase": "button-google-meet"
+        }
+      ],
+      "clase": "button button-desplegable button-agendar",
+      "icono": "icons/generic-calendar.svg",
+      "botones": [
+        {
+          "nombre": "agendar-whatsapp",
+          "texto": "Enviar por WhatsApp",
+          "textoEn": "Send on WhatsApp",
+          "descripcion": "Abre WhatsApp con un mensaje para completar",
+          "descripcionEn": "Opens WhatsApp with a message to fill in",
+          "href": "https://wa.me/59177181073?text=Hola%20Alvaro%2C%20te%20env%C3%ADo%20la%20invitaci%C3%B3n%20para%20una%20reuni%C3%B3n.%0APlataforma%20(Zoom%2C%20Teams%20o%20Google%20Meet)%3A%20%0AFecha%3A%20%0AHora%3A%20%0AEnlace%3A%20",
+          "hrefEn": "https://wa.me/59177181073?text=Hi%20Alvaro%2C%20here%20is%20the%20invitation%20for%20a%20meeting.%0APlatform%20(Zoom%2C%20Teams%20or%20Google%20Meet)%3A%20%0ADate%3A%20%0ATime%3A%20%0ALink%3A%20",
+          "clase": "button button-whatsapp",
+          "icono": "icons/whatsapp.svg",
+          "alt": "WhatsApp",
+          "target": "_blank",
+          "rel": "noopener"
+        }
+      ]
     },
     {
       "nombre": "ubicame",
@@ -260,105 +292,6 @@
       "alt": "Discord",
       "target": "_blank",
       "rel": "noopener"
-    },
-    {
-      "nombre": "google-meet",
-      "texto": "Unirse a Google Meet",
-      "textoEn": "Join Google Meet",
-      "descripcion": "Videollamada por Google Meet (todavía sin enlace)",
-      "descripcionEn": "Video call on Google Meet (no link yet)",
-      "href": "404.html",
-      "clase": "button button-google-meet",
-      "icono": "icons/google-meet.svg",
-      "alt": "Google Meet",
-      "target": null,
-      "rel": null
-    },
-    {
-      "nombre": "google-calendar",
-      "texto": "Google Calendar",
-      "descripcion": "Agenda una reunión conmigo (todavía sin enlace)",
-      "descripcionEn": "Book a meeting with me (no link yet)",
-      "href": "404.html",
-      "clase": "button button-google-black",
-      "icono": "icons/google-calendar.svg",
-      "alt": "Google Calendar",
-      "target": null,
-      "rel": null
-    }
-  ],
-  "redes": [
-    {
-      "nombre": "youtube",
-      "texto": "YouTube",
-      "descripcion": "Tutoriales y videos sobre programación",
-      "descripcionEn": "Programming tutorials and videos",
-      "href": "https://www.youtube.com/@AlvaroSilesDev",
-      "clase": "button button-youtube",
-      "icono": "icons/youtube.svg",
-      "alt": "YouTube",
-      "target": "_blank",
-      "rel": "noopener"
-    },
-    {
-      "nombre": "instagram",
-      "texto": "Instagram",
-      "descripcion": "Mira mis fotos y reels en Instagram",
-      "descripcionEn": "See my photos and reels on Instagram",
-      "href": "https://www.instagram.com/alvarosiles.developer",
-      "clase": "button button-instagram",
-      "icono": "icons/instagram.svg",
-      "alt": "Instagram",
-      "target": "_blank",
-      "rel": "noopener"
-    },
-    {
-      "nombre": "facebook",
-      "texto": "Facebook",
-      "descripcion": "Sígueme en Facebook",
-      "descripcionEn": "Follow me on Facebook",
-      "href": "https://www.facebook.com/alvarosiles.developer",
-      "clase": "button button-facebook",
-      "icono": "icons/facebook.svg",
-      "alt": "Facebook",
-      "target": "_blank",
-      "rel": "noopener"
-    },
-    {
-      "nombre": "tiktok",
-      "texto": "TikTok",
-      "descripcion": "Mira mis videos en TikTok",
-      "descripcionEn": "Watch my videos on TikTok",
-      "href": "https://www.tiktok.com/@alvarosiles.developer",
-      "clase": "button button-tiktok",
-      "icono": "icons/tiktok.svg",
-      "alt": "TikTok",
-      "target": "_blank",
-      "rel": "noopener"
-    },
-    {
-      "nombre": "x",
-      "texto": "X",
-      "descripcion": "Sígueme en X (Twitter)",
-      "descripcionEn": "Follow me on X (Twitter)",
-      "href": "https://x.com/alvarosiles_dev",
-      "clase": "button button-x",
-      "icono": "icons/x.svg",
-      "alt": "X",
-      "target": "_blank",
-      "rel": "noopener"
-    },
-    {
-      "nombre": "vero",
-      "texto": "Vero",
-      "descripcion": "Sígueme en Vero (todavía sin enlace)",
-      "descripcionEn": "Follow me on Vero (no link yet)",
-      "href": "404.html",
-      "clase": "button button-vero",
-      "icono": "icons/vero.svg",
-      "alt": "Vero",
-      "target": null,
-      "rel": null
     }
   ],
   "pagos-apoyo": [
@@ -390,50 +323,62 @@
         {
           "nombre": "banco-union",
           "texto": "Banco Unión",
-          "descripcion": "Banco Unión (todavía sin enlace)",
-          "descripcionEn": "Banco Unión (no link yet)",
-          "href": "404.html",
+          "descripcion": "Muestra el QR de Banco Unión",
+          "descripcionEn": "Shows the Banco Unión QR code",
+          "href": "images/qr-ejemplo.png",
           "clase": "button button-banco",
           "icono": "icons/banco-union.png",
           "alt": "Banco Unión",
           "target": null,
-          "rel": null
+          "rel": null,
+          "accion": "qr",
+          "qr": "images/qr-ejemplo.png",
+          "qrEjemplo": true
         },
         {
           "nombre": "banco-bnb",
           "texto": "Banco BNB",
-          "descripcion": "Banco BNB (todavía sin enlace)",
-          "descripcionEn": "Banco BNB (no link yet)",
-          "href": "404.html",
+          "descripcion": "Muestra el QR de Banco BNB",
+          "descripcionEn": "Shows the Banco BNB QR code",
+          "href": "images/qr-ejemplo.png",
           "clase": "button button-banco",
           "icono": "icons/banco-bnb.png",
           "alt": "Banco BNB",
           "target": null,
-          "rel": null
+          "rel": null,
+          "accion": "qr",
+          "qr": "images/qr-ejemplo.png",
+          "qrEjemplo": true
         },
         {
           "nombre": "banco-mercantil",
           "texto": "Banco Mercantil",
-          "descripcion": "Banco Mercantil (todavía sin enlace)",
-          "descripcionEn": "Banco Mercantil (no link yet)",
-          "href": "404.html",
+          "descripcion": "Muestra el QR de Banco Mercantil",
+          "descripcionEn": "Shows the Banco Mercantil QR code",
+          "href": "images/qr-ejemplo.png",
           "clase": "button button-banco",
           "icono": "icons/banco-mercantil.png",
           "alt": "Banco Mercantil",
           "target": null,
-          "rel": null
+          "rel": null,
+          "accion": "qr",
+          "qr": "images/qr-ejemplo.png",
+          "qrEjemplo": true
         },
         {
           "nombre": "banco-sol",
           "texto": "Banco Sol",
-          "descripcion": "Banco Sol (todavía sin enlace)",
-          "descripcionEn": "Banco Sol (no link yet)",
-          "href": "404.html",
+          "descripcion": "Muestra el QR de Banco Sol",
+          "descripcionEn": "Shows the Banco Sol QR code",
+          "href": "images/qr-ejemplo.png",
           "clase": "button button-banco",
           "icono": "icons/banco-sol.svg",
           "alt": "Banco Sol",
           "target": null,
-          "rel": null
+          "rel": null,
+          "accion": "qr",
+          "qr": "images/qr-ejemplo.png",
+          "qrEjemplo": true
         }
       ]
     }
