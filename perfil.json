@@ -1,0 +1,16 @@
+{
+  "foto": "images/avatar-perfil.jpg",
+  "aro": "azul",
+  "estado": {
+    "mostrar": true,
+    "texto": "Disponible para trabajar",
+    "textoEn": "Open to Work",
+    "punto": "verde"
+  },
+  "pagina": {
+    "idioma": "auto",
+    "mostrarIdioma": true,
+    "tema": "auto",
+    "mostrarTema": true
+  }
+}
