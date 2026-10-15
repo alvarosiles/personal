@@ -1,15 +1,4 @@
 {
-  "github": [
-    {
-      "texto": "Follow @alvarosiles",
-      "href": "https://github.com/alvarosiles",
-      "icono": null,
-      "tamano": "large",
-      "mostrarContador": true,
-      "esquemaColor": "no-preference: light; light: light; dark: dark_high_contrast;",
-      "ariaLabel": "Follow @alvarosiles on GitHub"
-    }
-  ],
   "iconos": [
     {
       "nombre": "facebook",
@@ -152,32 +141,6 @@
       "rel": "noopener"
     },
     {
-      "nombre": "vscode",
-      "texto": "Extensiones de VS Code",
-      "textoEn": "VS Code Extensions",
-      "descripcion": "Temas y extensiones que publiqué para VS Code",
-      "descripcionEn": "Themes and extensions I've published for VS Code",
-      "href": "https://marketplace.visualstudio.com/publishers/alvarosiles",
-      "clase": "button button-vscode",
-      "icono": "icons/vscode.svg",
-      "alt": "Visual Studio Code",
-      "target": "_blank",
-      "rel": "noopener"
-    },
-    {
-      "nombre": "chrome",
-      "texto": "Super Volume para Chrome",
-      "textoEn": "Super Volume for Chrome",
-      "descripcion": "Mi extensión para subir el volumen de cualquier pestaña hasta 600 %",
-      "descripcionEn": "My extension to boost any tab's volume up to 600%",
-      "href": "https://chromewebstore.google.com/detail/super-volume/hghcoimnjobgnpekgfndegcldmpiphie",
-      "clase": "button button-chrome",
-      "icono": "icons/chrome.svg",
-      "alt": "Chrome Web Store",
-      "target": "_blank",
-      "rel": "noopener"
-    },
-    {
       "nombre": "codepen",
       "texto": "CodePen",
       "descripcion": "Mis demos y experimentos de código (todavía sin enlace)",
@@ -258,7 +221,7 @@
       "textoEn": "Find me",
       "descripcion": "Mira dónde estoy y cómo llegar",
       "descripcionEn": "See where I am and how to get there",
-      "href": "https://www.google.com/maps?q=-17.78570805219742,-63.208320401608944&z=17&hl=es",
+      "href": "https://www.google.com/maps?q=-17.785812377929688,-63.21001052856445&z=17&hl=es",
       "accion": "ubicame",
       "clase": "button button-ubicame",
       "icono": "icons/generic-map.svg",
@@ -268,64 +231,11 @@
       "lugares": [
         {
           "nombre": "Alvaro Siles",
-          "lat": -17.78570805219742,
-          "lng": -63.208320401608944
+          "direccion": "Av. Roca y Coronado, Santa Cruz de la Sierra",
+          "lat": -17.785812377929688,
+          "lng": -63.21001052856445
         }
       ]
-    },
-    {
-      "nombre": "encuentranos",
-      "texto": "Encuéntranos",
-      "textoEn": "Find us",
-      "descripcion": "Mira todos nuestros puntos en el mapa",
-      "descripcionEn": "See all our places on the map",
-      "href": "https://www.google.com/maps?q=-17.78570805219742,-63.208320401608944&z=17&hl=es",
-      "accion": "encuentranos",
-      "clase": "button button-encuentranos",
-      "icono": "icons/generic-map.svg",
-      "alt": "Mapa",
-      "target": "_blank",
-      "rel": "noopener",
-      "lugares": [
-        {
-          "nombre": "Punto 1",
-          "lat": -17.7857081,
-          "lng": -63.2083204
-        },
-        {
-          "nombre": "Pocherena 250",
-          "direccion": "Pocherena 250, Santa Cruz de la Sierra",
-          "lat": -17.7996489,
-          "lng": -63.1994354
-        },
-        {
-          "nombre": "Chuquisaca",
-          "direccion": "Chuquisaca, Santa Cruz de la Sierra",
-          "lat": -17.7876027,
-          "lng": -63.1800773
-        },
-        {
-          "nombre": "Av. Alemana 2179",
-          "direccion": "Av. Alemana 2179, Santa Cruz de la Sierra",
-          "lat": -17.7654937,
-          "lng": -63.1696418
-        }
-      ]
-    },
-    {
-      "nombre": "grupo-ubicaciones",
-      "texto": "Grupo de ubicaciones",
-      "textoEn": "All locations",
-      "descripcion": "Mira todos los puntos juntos en un mapa",
-      "descripcionEn": "See all the places together on one map",
-      "href": "https://www.google.com/maps/dir/-17.7857081,-63.2083204/-17.7996489,-63.1994354/-17.7876027,-63.1800773/-17.7654937,-63.1696418",
-      "accion": "grupo",
-      "clase": "button button-grupo-ubicaciones",
-      "icono": "icons/generic-map.svg",
-      "alt": "Mapa",
-      "target": "_blank",
-      "rel": "noopener",
-      "lugares": "encuentranos"
     },
     {
       "nombre": "telegram",
@@ -350,30 +260,6 @@
       "alt": "Discord",
       "target": "_blank",
       "rel": "noopener"
-    },
-    {
-      "nombre": "google-chat",
-      "texto": "Google Chat",
-      "descripcion": "Escríbeme por Google Chat (todavía sin enlace)",
-      "descripcionEn": "Message me on Google Chat (no link yet)",
-      "href": "404.html",
-      "clase": "button button-google-black",
-      "icono": "icons/google-chat.svg",
-      "alt": "Google Chat",
-      "target": null,
-      "rel": null
-    },
-    {
-      "nombre": "qq",
-      "texto": "QQ",
-      "descripcion": "Escríbeme por QQ (todavía sin enlace)",
-      "descripcionEn": "Message me on QQ (no link yet)",
-      "href": "404.html",
-      "clase": "button button-qq",
-      "icono": "icons/qq.svg",
-      "alt": "QQ",
-      "target": null,
-      "rel": null
     },
     {
       "nombre": "google-meet",
@@ -473,160 +359,9 @@
       "alt": "Vero",
       "target": null,
       "rel": null
-    },
-    {
-      "nombre": "goodreads",
-      "texto": "Goodreads",
-      "descripcion": "Los libros que leo (todavía sin enlace)",
-      "descripcionEn": "The books I read (no link yet)",
-      "href": "404.html",
-      "clase": "button button-goodreads",
-      "icono": "icons/goodreads.svg",
-      "alt": "Goodreads",
-      "target": null,
-      "rel": null
-    }
-  ],
-  "herramientas": [
-    {
-      "nombre": "google",
-      "texto": "Google",
-      "descripcion": "Mi perfil en Google (todavía sin enlace)",
-      "descripcionEn": "My Google profile (no link yet)",
-      "href": "404.html",
-      "clase": "button button-google-black",
-      "icono": "icons/google.svg",
-      "alt": "Google",
-      "target": null,
-      "rel": null
-    },
-    {
-      "nombre": "google-docs",
-      "texto": "Ver en Google Docs",
-      "textoEn": "View in Google Docs",
-      "descripcion": "Documentos que comparto (todavía sin enlace)",
-      "descripcionEn": "Documents I share (no link yet)",
-      "href": "404.html",
-      "clase": "button button-google-black",
-      "icono": "icons/google-docs.svg",
-      "alt": "Google Docs",
-      "target": null,
-      "rel": null
-    },
-    {
-      "nombre": "google-drive",
-      "texto": "Ver en Google Drive",
-      "textoEn": "View in Google Drive",
-      "descripcion": "Archivos que comparto (todavía sin enlace)",
-      "descripcionEn": "Files I share (no link yet)",
-      "href": "404.html",
-      "clase": "button button-google-black",
-      "icono": "icons/google-drive.svg",
-      "alt": "Google Drive",
-      "target": null,
-      "rel": null
-    },
-    {
-      "nombre": "google-forms",
-      "texto": "Google Forms",
-      "descripcion": "Formulario de contacto (todavía sin enlace)",
-      "descripcionEn": "Contact form (no link yet)",
-      "href": "404.html",
-      "clase": "button button-google-black",
-      "icono": "icons/google-forms.svg",
-      "alt": "Google Forms",
-      "target": null,
-      "rel": null
-    },
-    {
-      "nombre": "google-photos",
-      "texto": "Google Photos",
-      "descripcion": "Mis álbumes de fotos (todavía sin enlace)",
-      "descripcionEn": "My photo albums (no link yet)",
-      "href": "404.html",
-      "clase": "button button-google-black",
-      "icono": "icons/google-photos.svg",
-      "alt": "Google Photos",
-      "target": null,
-      "rel": null
-    },
-    {
-      "nombre": "google-play",
-      "texto": "Google Play Store",
-      "descripcion": "Mis apps en Google Play (todavía sin enlace)",
-      "descripcionEn": "My apps on Google Play (no link yet)",
-      "href": "404.html",
-      "clase": "button button-playstore",
-      "icono": "icons/google-play.svg",
-      "alt": "Google Play Store",
-      "target": null,
-      "rel": null
-    },
-    {
-      "nombre": "microsoft",
-      "texto": "Consíguelo en Microsoft",
-      "textoEn": "Get it from Microsoft",
-      "descripcion": "Mis apps en Microsoft Store (todavía sin enlace)",
-      "descripcionEn": "My apps on the Microsoft Store (no link yet)",
-      "href": "404.html",
-      "clase": "button button-microsoft",
-      "icono": "icons/microsoft.svg",
-      "alt": "Microsoft",
-      "target": null,
-      "rel": null
-    },
-    {
-      "nombre": "notion",
-      "texto": "Notion",
-      "descripcion": "Mis notas y páginas en Notion (todavía sin enlace)",
-      "descripcionEn": "My notes and pages on Notion (no link yet)",
-      "href": "404.html",
-      "clase": "button button-notion",
-      "icono": "icons/notion.svg",
-      "alt": "Notion",
-      "target": null,
-      "rel": null
-    },
-    {
-      "nombre": "xbox",
-      "texto": "Xbox",
-      "descripcion": "Juega conmigo en Xbox (todavía sin enlace)",
-      "descripcionEn": "Play with me on Xbox (no link yet)",
-      "href": "404.html",
-      "clase": "button button-xbox",
-      "icono": "icons/xbox.svg",
-      "alt": "Xbox",
-      "target": null,
-      "rel": null
-    },
-    {
-      "nombre": "epicgames",
-      "texto": "Epic Games",
-      "descripcion": "Juega conmigo en Epic Games (todavía sin enlace)",
-      "descripcionEn": "Play with me on Epic Games (no link yet)",
-      "href": "404.html",
-      "clase": "button button-epicgames",
-      "icono": "icons/epicgames.svg",
-      "alt": "Epic Games",
-      "target": null,
-      "rel": null
     }
   ],
   "pagos-apoyo": [
-    {
-      "nombre": "pagos",
-      "texto": "Pagos",
-      "textoEn": "Payments",
-      "descripcion": "Coordina un pago conmigo por WhatsApp",
-      "descripcionEn": "Arrange a payment with me on WhatsApp",
-      "href": "https://wa.me/59177181073?text=Hola%20Alvaro%2C%20quiero%20hacerte%20un%20pago.",
-      "hrefEn": "https://wa.me/59177181073?text=Hi%20Alvaro%2C%20I%27d%20like%20to%20make%20a%20payment.",
-      "clase": "button button-whatsapp",
-      "icono": "icons/pagos.svg",
-      "alt": "Pagos",
-      "target": "_blank",
-      "rel": "noopener"
-    },
     {
       "nombre": "apoyo",
       "texto": "Apóyame",
@@ -689,54 +424,6 @@
           "rel": null
         },
         {
-          "nombre": "banco-bisa",
-          "texto": "Banco BISA",
-          "descripcion": "Banco BISA (todavía sin enlace)",
-          "descripcionEn": "Banco BISA (no link yet)",
-          "href": "404.html",
-          "clase": "button button-banco",
-          "icono": "icons/banco-bisa.png",
-          "alt": "Banco BISA",
-          "target": null,
-          "rel": null
-        },
-        {
-          "nombre": "banco-bcp",
-          "texto": "Banco de Crédito (BCP)",
-          "descripcion": "Banco de Crédito (BCP) (todavía sin enlace)",
-          "descripcionEn": "Banco de Crédito (BCP) (no link yet)",
-          "href": "404.html",
-          "clase": "button button-banco",
-          "icono": "icons/banco-bcp.svg",
-          "alt": "Banco de Crédito (BCP)",
-          "target": null,
-          "rel": null
-        },
-        {
-          "nombre": "banco-economico",
-          "texto": "Banco Económico",
-          "descripcion": "Banco Económico (todavía sin enlace)",
-          "descripcionEn": "Banco Económico (no link yet)",
-          "href": "404.html",
-          "clase": "button button-banco",
-          "icono": "icons/banco-economico.png",
-          "alt": "Banco Económico",
-          "target": null,
-          "rel": null
-        },
-        {
-          "nombre": "banco-ganadero",
-          "texto": "Banco Ganadero",
-          "descripcion": "Banco Ganadero (todavía sin enlace)",
-          "descripcionEn": "Banco Ganadero (no link yet)",
-          "href": "404.html",
-          "clase": "button button-banco",
-          "icono": "icons/banco-ganadero.png",
-          "alt": "Banco Ganadero",
-          "target": null,
-          "rel": null
-        },
-        {
           "nombre": "banco-sol",
           "texto": "Banco Sol",
           "descripcion": "Banco Sol (todavía sin enlace)",
@@ -747,122 +434,8 @@
           "alt": "Banco Sol",
           "target": null,
           "rel": null
-        },
-        {
-          "nombre": "banco-fie",
-          "texto": "Banco FIE",
-          "descripcion": "Banco FIE (todavía sin enlace)",
-          "descripcionEn": "Banco FIE (no link yet)",
-          "href": "404.html",
-          "clase": "button button-banco",
-          "icono": "icons/banco-fie.png",
-          "alt": "Banco FIE",
-          "target": null,
-          "rel": null
-        },
-        {
-          "nombre": "banco-nacion-argentina",
-          "texto": "Banco Nación Argentina",
-          "descripcion": "Banco Nación Argentina (todavía sin enlace)",
-          "descripcionEn": "Banco Nación Argentina (no link yet)",
-          "href": "404.html",
-          "clase": "button button-banco",
-          "icono": "icons/banco-nacion-argentina.png",
-          "alt": "Banco Nación Argentina",
-          "target": null,
-          "rel": null
-        },
-        {
-          "nombre": "banco-prodem",
-          "texto": "Banco Prodem",
-          "descripcion": "Banco Prodem (todavía sin enlace)",
-          "descripcionEn": "Banco Prodem (no link yet)",
-          "href": "404.html",
-          "clase": "button button-banco",
-          "icono": "icons/banco-prodem.png",
-          "alt": "Banco Prodem",
-          "target": null,
-          "rel": null
-        },
-        {
-          "nombre": "banco-fortaleza",
-          "texto": "Banco Fortaleza",
-          "descripcion": "Banco Fortaleza (todavía sin enlace)",
-          "descripcionEn": "Banco Fortaleza (no link yet)",
-          "href": "404.html",
-          "clase": "button button-banco",
-          "icono": "icons/banco-fortaleza.png",
-          "alt": "Banco Fortaleza",
-          "target": null,
-          "rel": null
-        },
-        {
-          "nombre": "banco-rojo",
-          "texto": "Banco Rojo",
-          "descripcion": "Banco Rojo (todavía sin enlace)",
-          "descripcionEn": "Banco Rojo (no link yet)",
-          "href": "404.html",
-          "clase": "button button-banco",
-          "icono": "icons/banco.svg",
-          "alt": "Banco Rojo",
-          "target": null,
-          "rel": null
         }
       ]
-    },
-    {
-      "nombre": "gofundme",
-      "texto": "GoFundMe",
-      "descripcion": "Apoya mi campaña en GoFundMe (todavía sin enlace)",
-      "descripcionEn": "Support my GoFundMe campaign (no link yet)",
-      "href": "404.html",
-      "clase": "button button-gofundme",
-      "icono": "icons/gofundme.svg",
-      "alt": "GoFundMe",
-      "target": null,
-      "rel": null
-    }
-  ],
-  "despliegue": [
-    {
-      "nombre": "deploy-cloudflare",
-      "texto": "Deploy to Cloudflare",
-      "href": "404.html",
-      "imagen": "icons/deploy-cloudflare.svg",
-      "target": null,
-      "rel": null,
-      "descripcion": "Copia esta página en Cloudflare (todavía sin enlace)",
-      "descripcionEn": "Copy this page to Cloudflare (no link yet)"
-    },
-    {
-      "nombre": "deploy-digitalocean",
-      "texto": "Deploy to DigitalOcean",
-      "href": "404.html",
-      "imagen": "icons/deploy-digitalocean.svg",
-      "target": null,
-      "rel": null,
-      "descripcion": "Copia esta página en DigitalOcean (todavía sin enlace)",
-      "descripcionEn": "Copy this page to DigitalOcean (no link yet)"
-    },
-    {
-      "nombre": "deploy-vercel",
-      "texto": "Deploy to Vercel",
-      "href": "404.html",
-      "imagen": "icons/deploy-vercel.svg",
-      "target": null,
-      "rel": null,
-      "descripcion": "Copia esta página en Vercel (todavía sin enlace)",
-      "descripcionEn": "Copy this page to Vercel (no link yet)"
-    },
-    {
-      "nombre": "deploy-netlify",
-      "texto": "Deploy to Netlify",
-      "href": "404.html",
-      "imagen": "icons/deploy-netlify.svg",
-      "target": null,
-      "rel": null,
-      "descripcion": "Copia esta página en Netlify (todavía sin enlace)",
-      "descripcionEn": "Copy this page to Netlify (no link yet)"
     }
   ]
 }
